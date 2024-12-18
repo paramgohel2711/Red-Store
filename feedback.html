@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Tags for Encoding and Responsiveness -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Page Title -->
+    <title>Feedback - Red-Store</title>
+
+    <!-- Custom CSS -->
+    <style>
+        /* Body background with radial gradient */
+        body {
+            background: radial-gradient(#fff, #ffd6d6);
+            font-family: 'Poppins', sans-serif; /* Apply the custom font */
+        }
+    </style>
+</head>
+<body>
+    <!-- Feedback Section -->
+    <section id="feedback-section" class="py-5">
+        <div class="container">
+            <!-- Row for Feedback Content -->
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-8">
+                    <!-- Section Heading -->
+                    <h2 class="mb-4">We Value Your Feedback</h2>
+                    <p class="lead mb-5">
+                        Your feedback helps us improve our store and services. 
+                        Please take a moment to share your thoughts!
+                    </p>
+
+                    <!-- Feedback Form -->
+                    <form>
+                        <!-- Name Input -->
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                id="name"
+                                placeholder="Your Name"
+                                required
+                            />
+                        </div>
+
+                        <!-- Email Input -->
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input
+                                type="email"
+                                class="form-control"
+                                id="email"
+                                placeholder="Your Email"
+                                required
+                            />
+                        </div>
+
+                        <!-- Feedback Textarea -->
+                        <div class="mb-3">
+                            <label for="feedback" class="form-label">Your Feedback</label>
+                            <textarea
+                                class="form-control"
+                                id="feedback"
+                                rows="4"
+                                placeholder="Share your feedback here..."
+                                required
+                            ></textarea>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-danger">Submit Feedback</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
