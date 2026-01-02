@@ -1,0 +1,23 @@
+redstore/
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── script.js
+│   └── images/
+│       ├── logo.png
+│       ├── products/
+│       └── banners/
+├── includes/
+│   ├── header.php
+│   ├── footer.php
+│   ├── config.php
+│   └── functions.php
+├── index.php
+├── products.php
+├── product-details.php
+├── cart.php
+├── checkout.php
+├── account.php
+└── database.sql
+
